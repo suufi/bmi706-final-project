@@ -2,10 +2,8 @@ import altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
-import vegafusion as vf
 from vega_datasets import data
 
-vf.enable()
 alt.data_transformers.enable("data_server")
 
 
