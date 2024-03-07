@@ -4,8 +4,6 @@ import pandas as pd
 import streamlit as st
 from vega_datasets import data
 
-alt.data_transformers.enable("data_server")
-
 
 @st.cache_data
 def load_data():
